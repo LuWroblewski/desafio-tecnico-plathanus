@@ -1,5 +1,8 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import Footer from './components/layout-components/footer/footer';
+import { raleway } from './fonts';
+import Navbar from './components/layout-components/navbar/navbar';
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -12,8 +15,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html>
-      <body>{children}</body>
+    <html className={raleway.className}>
+      <body>
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
