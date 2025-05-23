@@ -1,0 +1,52 @@
+{
+  "produtos": [
+    {
+      "nome": "Órtese Soft Curta com Polegar",
+      "codigo": "OR1065",
+      "lancamento": false,
+      "imagem": "/images/ortese_soft_polegar_1.png"
+    },
+    {
+      "nome": "Órtese Soft Curta sem Polegar",
+      "codigo": "OR1066",
+      "lancamento": true,
+      "imagem": "/images/ortese_soft_sem_polegar_1.png"
+    },
+    {
+      "nome": "Órtese Soft Curta com Polegar",
+      "codigo": "OR1065",
+      "lancamento": false,
+      "imagem": "/images/ortese_soft_polegar_2.png"
+    },
+    {
+      "nome": "Órtese Safe Air",
+      "codigo": "OR1051",
+      "lancamento": true,
+      "imagem": "/images/ortese_safe_air_1.png"
+    },
+    {
+      "nome": "Órtese Soft Curta com Polegar",
+      "codigo": "OR1065",
+      "lancamento": false,
+      "imagem": "/images/ortese_soft_polegar_1.png"
+    },
+    {
+      "nome": "Órtese Soft Curta sem Polegar",
+      "codigo": "OR1066",
+      "lancamento": true,
+      "imagem": "/images/ortese_soft_sem_polegar_1.png"
+    },
+    {
+      "nome": "Órtese Soft Curta com Polegar",
+      "codigo": "OR1065",
+      "lancamento": false,
+      "imagem": "/images/ortese_soft_polegar_2.png"
+    },
+    {
+      "nome": "Órtese Safe Air",
+      "codigo": "OR1051",
+      "lancamento": true,
+      "imagem": "/images/ortese_safe_air_1.png"
+    }
+  ]
+}
