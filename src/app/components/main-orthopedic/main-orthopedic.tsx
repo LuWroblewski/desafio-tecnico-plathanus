@@ -59,8 +59,8 @@ export default function MainOrthopedic() {
         </p>
       </div>
 
-      <div className=' p-10 md:p-20 flex flex-col md:flex-auto'>
-        <ul className='menu bg-base-200 rounded-box w-full md:w-56 border-[0.5px] border-[#D5D7D8]'>
+      <div className=' p-10 md:p-20 flex flex-col md:flex-row'>
+        <ul className='menu bg-base-200 rounded-box w-full md:w-56 md:h-80 border-[0.5px] border-[#D5D7D8]'>
           <li>
             <a>Filtros</a>
           </li>
@@ -72,7 +72,7 @@ export default function MainOrthopedic() {
               <summary className='flex items-center gap-2'>Famílias/Tecnologias</summary>
               <ul>
                 <li>
-                  <button type='button'>Fa</button>
+                  <button type='button'>Produto 1</button>
                 </li>
                 <li>
                   <button type='button'>Produto 2</button>
