@@ -2,7 +2,7 @@ import { LuAlignJustify, LuLanguages, LuSearch } from 'react-icons/lu';
 
 export default function Navbar() {
   return (
-    <div className='navbar bg-base-100 shadow-sm text-[#4C4D4C] px-13'>
+    <div className='navbar bg-base-100 shadow-sm text-[#4C4D4C] px-4 md:px-13'>
       <div className='navbar-start'>
         <div className='dropdown'>
           <div tabIndex={0} role='button' className='btn btn-ghost lg:hidden'>
@@ -26,6 +26,9 @@ export default function Navbar() {
                 <LuSearch />
               </a>
             </li>
+            <li>
+              <a className='btn text-base-100 bg-[#E57200] rounded-xl  md:hidden'>Fale conosco</a>
+            </li>
           </ul>
         </div>
         <a className='btn btn-ghost text-3xl tracking-widest'>LOGO</a>
@@ -44,6 +47,7 @@ export default function Navbar() {
           <li>
             <a>Catálogos</a>
           </li>
+
           <li>
             <a>
               <LuSearch className='text-xl' />
@@ -52,8 +56,8 @@ export default function Navbar() {
         </ul>
       </div>
       <div className='navbar-end'>
-        <a className='btn text-base-100 bg-[#E57200] rounded-xl'>Fale conosco</a>
-        <ul className='menu lg:menu-horizontal bg-ghost rounded-box'>
+        <a className='btn text-base-100 bg-[#E57200] rounded-xl hidden md:relative'>Fale conosco</a>
+        <ul className='menu menu-horizontal mr-10  bg-ghost rounded-box'>
           <li>
             <details>
               <summary className='flex items-center gap-2'>
