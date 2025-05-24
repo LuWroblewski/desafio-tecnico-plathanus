@@ -5,7 +5,7 @@ import Content from './content/content';
 export default function MainOrthopedic() {
   return (
     <main>
-      <div className='bg-neutral-content md:bg-[url(/images/image.png)] w-full h-screen bg-cover bg-center'>
+      <div className='bg-neutral-content md:bg-[url(/images/main.png)] w-full h-screen bg-cover bg-center'>
         <div className='px-10 py-5 md:px-30 md:py-15 h-full flex flex-col'>
           <div className='tabs tabs-border items-center'>
             <a className='tab text-[#4C4D4C] text-lg'>Início</a>
