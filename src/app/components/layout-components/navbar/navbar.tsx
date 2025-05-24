@@ -27,7 +27,7 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a className='btn text-base-100 bg-[#E57200] rounded-xl  md:hidden'>Fale conosco</a>
+              <button className='btn text-base-100 bg-[#E57200] rounded-xl  md:hidden'>Fale conosco</button>{' '}
             </li>
           </ul>
         </div>
@@ -56,7 +56,7 @@ export default function Navbar() {
         </ul>
       </div>
       <div className='navbar-end'>
-        <a className='btn text-base-100 bg-[#E57200] rounded-xl hidden md:relative'>Fale conosco</a>
+        <button className='btn text-base-100 bg-[#E57200] rounded-xl  hidden md:block'>Fale conosco</button>
         <ul className='menu menu-horizontal mr-10  bg-ghost rounded-box'>
           <li>
             <details>
