@@ -4,6 +4,7 @@ import ProductDescription from './product-description/product-description';
 import Image from 'next/image';
 import Details from './details/detailts';
 import OthersProducts from './others-products/others-products';
+
 export default function MainProduct() {
   return (
     <div>
@@ -18,7 +19,7 @@ export default function MainProduct() {
       </div>
 
       <div className='px-10 py-5 md:px-30 md:py-0 flex flex-col md:flex-row space-x-5'>
-        <div className=' w-full md:w-5/12 h-full'>
+        <div className=' w-full md:w-5/12 md:min-w-5/12'>
           <ProductGallery />
         </div>
         <ProductDescription />
