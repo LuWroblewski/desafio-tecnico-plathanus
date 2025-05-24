@@ -11,9 +11,9 @@ export default function MainProduct() {
         <div className='tabs tabs-border items-center'>
           <a className='tab text-[#4C4D4C] text-lg'>Início</a>
           <LuChevronRight className='text-xl' />
-          <a className='tab tab-active text-lg'>Linha Orthopedic</a>
+          <a className='tab text-lg'>Linha Orthopedic</a>
           <LuChevronRight className='text-xl' />
-          <a className='tab text-lg'>Órtese Splint Bilateral</a>
+          <a className='tab tab-active text-lg'>Órtese Splint Bilateral</a>
         </div>
       </div>
 
