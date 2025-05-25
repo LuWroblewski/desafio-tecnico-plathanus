@@ -16,9 +16,7 @@ export default function Layout({
 }>) {
   return (
     <main className={raleway.className}>
-      <Navbar />
       {children}
-      <Footer />
     </main>
   );
 }
