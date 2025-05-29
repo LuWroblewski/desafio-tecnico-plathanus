@@ -14,10 +14,8 @@ export default function ProductGallery() {
   const [currentImage, setCurrentImage] = useState(0);
   const [isLoaded, setIsLoaded] = useState(false);
 
-  // URLs das imagens para pré-carregar
   const imageUrls = images.map((num) => `/images/product/ortese_product${num}.jpg`);
 
-  // Pré-carregamento das imagens
   useEffect(() => {
     let loadedCount = 0;
     imageUrls.forEach((src) => {
@@ -26,11 +24,10 @@ export default function ProductGallery() {
       img.onload = () => {
         loadedCount++;
         if (loadedCount === imageUrls.length) {
-          setIsLoaded(true); // Todas carregadas!
+          setIsLoaded(true);
         }
       };
       img.onerror = () => {
-        // mesmo que erro, contar pra evitar travar loading
         loadedCount++;
         if (loadedCount === imageUrls.length) {
           setIsLoaded(true);
@@ -48,7 +45,7 @@ export default function ProductGallery() {
   });
 
   if (!isLoaded) {
-    return <p>Carregando imagens...</p>; // pode personalizar um spinner ou algo do tipo
+    return <p>Carregando imagens...</p>;
   }
 
   return (
